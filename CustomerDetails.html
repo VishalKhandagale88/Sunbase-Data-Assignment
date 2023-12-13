@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>customer details</title>
+    <style>
+       .customer-details-form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        width: 50vw;        
+       }
+       input{
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid black;
+       }
+       button{
+            border-radius: 5px;
+            border: none;
+            background-color: #4c8fff;
+            padding: 10px;
+            margin-top: 5px;
+        }
+    </style>
 </head>
 <body>
     <h1>customer details</h1>
@@ -15,9 +35,9 @@
         <input type="text" placeholder="City">
         <input type="text" placeholder="State">
         <input type="text" placeholder="Email">
-        <input type="text" placeholder="Phone">
-        <button>Submit</button>
+        <input type="text" placeholder="Phone">        
     </div>
+    <button>Submit</button>
     
 </body>
 </html>
