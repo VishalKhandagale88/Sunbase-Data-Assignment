@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>customer details</title>
     <style>
+        .container{
+            margin: 10vw 20vw;
+        }
        .customer-details-form{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -12,7 +15,7 @@
         width: 50vw;        
        }
        input{
-        height: 25px;
+        height: 30px;
         border-radius: 5px;
         border: 1px solid black;
        }
@@ -22,11 +25,13 @@
             background-color: #4c8fff;
             padding: 10px;
             margin-top: 5px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
-    <h1>customer details</h1>
+    <div class="container">
+        <h1>customer details</h1>
     <div class="customer-details-form">
         <input type="text" placeholder="first name">
         <input type="text" name="" value="" placeholder="last name">
@@ -38,6 +43,8 @@
         <input type="text" placeholder="Phone">        
     </div>
     <button>Submit</button>
+    </div>
+    
     
 </body>
 </html>
