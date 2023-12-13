@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <style>
+        .login-form {
+            margin: 20vw 45vw;
+        }
+        input {
+            margin-bottom: 10px;
+            display: block;
+            width: 20vw;
+            height: 25px;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        button{
+            width: fit-content;
+            background-color: #4c8fff;
+            border-radius: 2px;
+            border: none;            
+            padding: 9px;
+        }
+        
+    </style>
 </head>
+
 <body>
     <div class="login-form">
-        <input type="text" placeholder="login id">
-        <input type="text" placeholder="password">
-        <button>Submit</button>
+        <div class="container">
+            <input type="text" placeholder="login id">
+            <input type="text" placeholder="password">
+            <button>Submit</button>
+        </div>       
     </div>
 </body>
+
 </html>
