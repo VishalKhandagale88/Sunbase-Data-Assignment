@@ -1,14 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer List</title>
+    <style>
+        button{
+            border-radius: 5px;
+            border: none;
+            background-color: #4c8fff;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+        .delete-button,.edit-button{
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+    </style>
 </head>
+
 <body>
     <button>Add Customer</button>
     <table>
-        
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td>vishal</td>
+            <td>khandagale</td>
+            <td>Pune, hijewadi</td>
+            <td>Pune</td>
+            <td>Maharastra</td>
+            <td>vvishal@gmail.com</td>
+            <td>9495782155</td>
+            <td>
+                <div class="edit-delete">
+                    <button class="delete-button"><img width="25" height="25"
+                            src="https://img.icons8.com/fluency/48/minus.png" alt="minus" /></button>
+                    <button class="edit-button">
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAxklEQVR4nO3VP2qCMRgH4KfUO3ToXsGx7dzRzUsU915AUCh17lSovYNn0aG7ohWU7u2WEoiQusmXbN8PXkICeYaX/KFMJthghm4h8x8esvrFk0p4yGpYEw/4wU0tPKSa1cQDvmriAeMWD21bQnta8vTPvEQTZ+YDy/TUHkrjl9hjlObXWJTCYx7S5l62doVtCTzmFTtcnKw/lsAjukrIW5rf4hmfTfGY+5M2fKdxnz6MeLoaZZrha7xjgE5T+Jg5XnBXCszzB5720ZQNBHqnAAAAAElFTkSuQmCC">
+                    </button>
+
+                </div>
+            </td>
+
+        </tr>
     </table>
 </body>
+
 </html>
